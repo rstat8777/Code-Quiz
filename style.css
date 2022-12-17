@@ -1,0 +1,15 @@
+.header1{
+    display: flex;
+    justify-content: space-between;
+}
+.scores{
+background-color: pink;
+display: flex;
+}
+.time{
+    background-color: green;
+    display: flex;
+}
+.started1{
+    background-color: blue;
+}
