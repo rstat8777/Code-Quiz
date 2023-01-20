@@ -9,12 +9,43 @@
 <body>
     <!-- start section -->
     <div id="start">"Start quiz"</div>
-    guide section 
-    quiz section
-    quiz questions
-    quiz choices
-    answers secti
-    result secti
+    <!--guide section -->
+    <div id="guide">
+        <h2>"Instructions to the quiz"</h2>
+        <h4>You have 60 seconds</h4>
+        <h4>The wrong answer will subtract 10 seconds </h4>
+        <h4>You can save your score at the end</h4>
+        <h4>you can gain maximum 10 points</h4>
+        <button id="exit">exit</button>
+        <button id="continue">continue</button>
+    </div>
+    <!--quiz section-->
+    <div id="quiz">
+    <div id="quiz-header">"Quiz"</div>
+    <div id="timer">"Time Left"</div>
+    <h6 id = "time">00</h6>
+</div>
+    <!--quiz questions-->
+    <div id="question">
+    <h2 id="questionno"></h2>
+    <h2 id="questiontext"></h2>
+    </div>
+    <!--quiz choices-->
+    <div id="optionlist">
+        <h4 class="choice-que"></h4>
+        <h4 class="choice-que"></h4>
+        <h4 class="choice-que"></h4>
+        <h4 class="choice-que"></h4>
+    </div>
+    <!--answers section-->
+    <div id="answers-section">
+        <h3 id="total_correct"></h3>
+        <h3 id="next-question"></h3>
+    </div>
+    <!--result section-->
+    <div id="result"></div>
+    <h6>You have completed the quiz</h6>
+    <h6 id="points">You got points</h6>
     <script src="./assets/script.js"></script>
     <script src="./assets/questions.js"></script>
 </body>
